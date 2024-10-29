@@ -1,0 +1,130 @@
+.head{
+    border: 2px solid rgb(228, 225, 225);
+    height:90px;
+    border-radius: 10px;
+}
+#log{
+    position: relative;
+    left:1350px;
+    bottom:50px;
+    width:140px;
+    height:40px;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#log:hover{
+    background-color: rgb(55, 55, 55);
+}
+.btn{
+    border:1px solid black;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left:1080px;
+    bottom:90px;
+   border-radius: 20px 0 0 20px ;
+   background-color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: small;
+}
+a{
+    text-decoration: none;
+}
+select{
+    position: relative;
+    left:1234px;
+    bottom:132px;
+    width: 40px;
+    height: 42px;
+    background-color: black;
+    border-radius:0 20px 20px 0 ;
+}
+.he1{
+    position: relative;
+    left:960px;
+    bottom:125px;
+    font-size: large;
+    color:grey;   
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.he1:hover{
+    color: rgb(79, 78, 78);
+}
+.he2{
+    position: relative;
+    left:770px;
+    bottom:125px;
+    font-size: large;
+    color:grey;   
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.he2:hover{
+    color: rgb(79, 78, 78);
+}
+.box{
+    border: 2px solid rgb(228, 225, 225);
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 110px;
+    height: 600px;
+    border-radius: 10px;
+}
+#p1{
+    position: relative;
+    left:200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideUp 2s ease-in-out forwards;
+}
+#p2{
+    position: relative;
+    bottom: 80px;
+    left:200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideUp 2s ease-in-out forwards;
+}
+#signup{
+    position: relative;
+    left:460px;
+    bottom: 570px;
+    height:40px;
+    width: 140px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    opacity: 0;
+    animation: slideUp 2s ease-in-out forwards;
+}
+#signup:hover{
+    background-color:rgb(79, 78, 78) ;  
+}
+.photo{
+    height: 500px;
+    width: 400px;
+    position: relative;
+    left:900px;
+    bottom:400px ;
+    padding: 0 0 0;
+    opacity: 0;
+    animation: slideUp 2s ease-in-out forwards;
+}
+@keyframes slideUp {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}

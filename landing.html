@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+    <div class="head"></div>
+    <div class="logo">
+        <img src="https://us.123rf.com/450wm/sabuhinovruzov/sabuhinovruzov1705/sabuhinovruzov170501537/78690733-icono-de-vector-de-c%C3%B3digo-qr-ilustraci%C3%B3n-en-blanco-y-negro-del-c%C3%B3digo-del-qr-icono-lineal.jpg" height="50" width="50">
+    </div>
+    <a href="C:\Users\Vivek\OneDrive\Desktop\10th class\PROJECTS\HPro\login.html" >
+    <button id ="log">
+        Login    
+    </button>
+    </a>
+    <div class="btn">
+        <p style="position: relative;left:20px;color: white; " > Create QR Code</p>
+    </div>
+    <select>
+        <div class="drop">
+            <option><a href="#"><span class="icon">&#128279;</span>URL / Link</a></option>
+            <a href="#"><span class="icon">&#128462;</span>PDF</a>
+            <a href="#"><span class="icon">&#127748;</span>Image</a>
+        </div>
+    </select>
+    <a href="#" class="he1">FAQ</a>
+    <a href="#" class="he2">About Us</a>
+    <div class="mid">
+        Create QR Code by Search
+    </div>
+    <div class="mids">Simple Open Source QR crafted for designers & developers</div>
+    <div class="qrbar">
+        <input type="text" id="qrText"  placeholder="URL/Link" required>
+        <button onclick=" generateQR()" id ="click">Customize QR</button>
+        <div id="imgBox">
+            <img src="" id="qrImg" >
+        </div>
+    </div>
+    <script>
+        let imgeBox = document.getElementById("imgBox");
+        let qrImg = document.getElementById("qrImg");
+        let qrText = document.getElementById("qrText");
+        function generateQR(){
+            qrImg.src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + qrText.value;
+            imgBox.classList.add("show-img")
+        }
+    </script>
+</body>
+</html>

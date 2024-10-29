@@ -1,0 +1,124 @@
+body{
+    border:2px solid black;
+    position: relative;
+    width: 730px;
+    height:450px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    overflow: hidden;
+    position: relative;
+    left:350px;
+    top:100px;
+    padding: 10px 10px 10px;
+}
+#uname{
+    position: relative;
+    left:340px;
+    top:50px;
+    width: 350px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: medium;
+}
+#uname:focus{
+    border-bottom: 2px solid rgb(237, 138, 26);
+    outline: none;
+}
+#email{
+    position: relative;
+    top:130px;
+    right: 21px;
+    width: 350px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: medium;
+}
+#email:focus{
+    border-bottom: 2px solid rgb(237, 138, 26);
+    outline: none;
+}
+#password{
+    position: relative;
+    left: 339px;
+    top:180px;
+    width: 350px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: medium;
+}
+#password:focus{
+    border-bottom: 2px solid rgb(237, 138, 26);
+    outline: none;
+}
+#signup{
+    position: relative;
+    left:500px;
+    top:40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#line{
+    border: 2px solid black;
+    width: 90px;
+    position: relative;
+    left:500px;
+    top:10px
+}
+#sbtn{
+    position: relative;
+    left:10px;
+    top:250px;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+}
+#sbtn:hover{
+    background-color: rgb(52, 51, 51);
+}
+.box{
+    border:2px solid black;
+    height: 470px;
+    width: 310px;
+    position: relative;
+    bottom: 187px;
+    right:10px;
+    background-color: black;
+    color:white;
+    border-radius: 10px 0 0 10px;
+    opacity: 0;
+    animation: slideUp 3s ease-in-out forwards;
+}
+#w{
+    font-size: 60px;
+    position: relative;
+    left:30px;
+    top:20px;
+    opacity: 0;
+    animation: slideUp 2s ease-in-out forwards;
+}
+#w1{
+    position: relative;
+    left:30px;
+    font-size:28px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0;
+    animation: slideUp 2s ease-in-out forwards;
+}
+@keyframes slideUp {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Animation</title>
+  <style>
+    /* Container for centering the text */
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      background-color: #f0f0f0;
+    }
+
+    /* Styling for the animated text */
+    .text {
+      font-size: 2em;
+      font-weight: bold;
+      color: #333;
+      opacity: 0;
+      position: relative;
+      animation: slideUp 2s ease-in-out forwards;
+    }
+
+    /* Keyframes for the sliding effect */
+    @keyframes slideUp {
+      0% {
+        transform: translateY(100px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="text">Welcome to the Animation</div>
+</div>
+
+</body>
+</html>

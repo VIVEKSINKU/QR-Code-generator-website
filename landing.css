@@ -1,0 +1,125 @@
+.head{
+    border: 1px solid rgb(226, 223, 223);
+
+    position: relative;
+    top:60px;
+    background-color: aliceblue;
+}
+#log{
+    position: relative;
+    left:1300px;
+    bottom:50px;
+    height:40px;
+    width: 140px;
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+}
+#log:hover{
+    background-color: rgb(55, 55, 55);
+}
+.btn{
+    border:1px solid black;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left:1080px;
+    bottom:90px;
+   border-radius: 20px 0 0 20px ;
+   background-color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: small;
+}
+.btn:hover{
+    background-color:  rgb(55, 55, 55);
+}
+select{
+    position: relative;
+    left:1234px;
+    bottom:132px;
+    width: 40px;
+    height: 42px;
+    background-color: black;
+    border-radius:0 20px 20px 0 ;
+}
+.he1{
+    position: relative;
+    left:960px;
+    bottom:125px;
+    font-size: large;
+    color:grey;   
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.he1:hover{
+    color: rgb(79, 78, 78);
+}
+.he2{
+    position: relative;
+    left:770px;
+    bottom:125px;
+    font-size: large;
+    color:grey;   
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.he2:hover{
+    color: rgb(79, 78, 78);
+}
+.mid{
+    font-size: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+.mids{
+    font-size: 29px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(106, 105, 105);
+}
+#qrText{
+    position:relative;
+    left:200px;
+    top:50px;
+    width:70%;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: large;
+}
+#click{
+    position: relative;
+    top:150px;
+    right:550px;
+    height: 60px;
+    width:330px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 20px;
+    
+}
+#click:hover{
+    background-color: rgb(179, 175, 175);
+}
+#imageBox{
+    width: 200px;
+    
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+#imgBox img{
+    position: relative;
+   left:890px;
+   top: 140px;
+   padding: 10px;
+   border: 2px solid rgb(201, 201, 201);
+   
+}
+#imgBox.show-img{
+    max-height: 300px;
+    margin: 10px auto;
+}
